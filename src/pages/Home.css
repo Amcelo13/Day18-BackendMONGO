@@ -1,0 +1,101 @@
+.parent--container {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.weather {
+  width: 50rem;
+  height: 50rem;
+  border-radius: 8px;
+  padding-right: 15rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 70px 70px 20px;
+}
+.banner {
+  width: 65rem;
+  padding-top: 2rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  display: flex;
+  text-align: left;
+  height: 60%;
+}
+
+#temp {
+  padding-left: 3rem;
+  font-size: 4rem;
+  color: white;
+  margin-top: 0rem;
+  margin-bottom: 4rem;
+}
+#city {
+  margin-top: -2.3rem;
+  padding-left: 3rem;
+
+  font-size: 1.5rem;
+  color: white;
+  padding-bottom: 1rem;
+}
+#city1 {
+  margin-top: -1.5rem;
+  padding-left: 3rem;
+
+  font-size: 1.5rem;
+  color: black;
+  padding-bottom: 7rem;
+}
+#weather--nature {
+  margin-top: -1rem;
+  padding-left: 3rem;
+  font-size: 2.5rem;
+  color: white;
+}
+#city1 {
+  font-size: 1.2rem;
+  margin-left: 0.4rem;
+}
+.search {
+  color: white;
+  width: 40px;
+  height: 40px;
+  margin-left: 46rem;
+  padding-top: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.four--days {
+  /* border: 1px solid black; */
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  width: 1040px;
+  padding-bottom: 6rem;
+}
+.day--flex {
+  display: flex;
+  justify-content: space-between;
+  color: silver;
+  padding-top: 0.7rem;
+  width: 62rem;
+  padding-bottom: 3px;
+}
+#day {
+  color: gray;
+  padding-left: 3rem;
+  font-size: 1.7rem;
+}
+
+#small {
+  color: silver;
+  margin-top: 1rem;
+  line-height: 0.4rem;
+  font-size: 1rem;
+}
+.day--flex {
+  margin-bottom: -1rem;
+  /* padding-left: -5rem; */
+}
+#weather--nature {
+  padding-left: 3.8rem;
+  padding-top: 0.8rem;
+}
